@@ -1,4 +1,3 @@
-addnode.c
 #include "monty.h"
 /**
  * f_push - add node to the stack
