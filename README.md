@@ -20,7 +20,7 @@
 * What are the most common use cases of stacks and queues
 * What is the proper way to use global variables
 
-# Available operation codes:
+## Available operation codes:
 
 | Opcode | Description |
 |------------------- | --------------|
