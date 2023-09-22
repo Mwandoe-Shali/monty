@@ -3,8 +3,8 @@
 /**
  * fc_pall - prints the stack
  * @head: stack head
- * @counter: no used
- * Return: no return
+ * @counter: not used in function
+ * Return: void
 */
 void fc_pall(stack_t **head, unsigned int counter)
 {
