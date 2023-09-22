@@ -4,7 +4,7 @@
  * fc_queue - prints the top
  * @head: stack head
  * @counter: line_number
- * Return: no return
+ * Return: void
 */
 void fc_queue(stack_t **head, unsigned int counter)
 {
@@ -17,7 +17,7 @@ void fc_queue(stack_t **head, unsigned int counter)
  * fc_addqueue - add node to the tail stack
  * @n: new_value
  * @head: head of the stack
- * Return: no return
+ * Return: void
 */
 void fc_addqueue(stack_t **head, int n)
 {
