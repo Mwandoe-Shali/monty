@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
- * nop - Does nothing.(func nop)
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
- * 
+ * nop - Does nothing. (func nop)
+ * @stack: Pointer to a pointer pointing to the top node of the stack.
+ * @line_number: Integer representing the line number of the opcode.
+ *
  * Return: Void
  */
 void nop(stack_t **stack, unsigned int line_number)
@@ -15,10 +15,10 @@ void nop(stack_t **stack, unsigned int line_number)
 
 
 /**
- * swap_nodes - Swaps the top two elements of the stack.(func swap)
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
- * 
+ * swap_nodes - Swaps the top two elements of the stack. (func swap)
+ * @stack: Pointer to a pointer pointing to the top node of the stack.
+ * @line_number: Integer representing the line number of the opcode.
+ *
  * Return: Void
  */
 void swap_nodes(stack_t **stack, unsigned int line_number)
@@ -39,10 +39,10 @@ void swap_nodes(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * add_nodes - Adds the top two elements of the stack.(func add)
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
- * 
+ * add_nodes - Adds the top two elements of the stack. (func add)
+ * @stack: Pointer to a pointer pointing to the top node of the stack.
+ * @line_number: Integer representing the line number of the opcode.
+ *
  * Return: Void
  */
 void add_nodes(stack_t **stack, unsigned int line_number)
@@ -61,11 +61,11 @@ void add_nodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * sub_nodes - subtracts the top element of the stack 
- *              from the second top element of the stack.(func sub)
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
- * 
+ * sub_nodes - subtracts the top element of the stack
+ *              from the second top element of the stack. (func sub)
+ * @stack: Pointer to a pointer pointing to the top node of the stack.
+ * @line_number: Integer representing the line number of the opcode.
+ *
  * Return: Void
  */
 void sub_nodes(stack_t **stack, unsigned int line_number)
@@ -84,11 +84,11 @@ void sub_nodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * div_nodes - divides the second top element of the stack 
- *                  by the top element of the stack.(func div)
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
- * 
+ * div_nodes - divides the second top element of the stack
+ *                  by the top element of the stack. (func div)
+ * @stack: Pointer to a pointer pointing to the top node of the stack.
+ * @line_number: Integer representing the line number of the opcode.
+ *
  * Return: void
  */
 void div_nodes(stack_t **stack, unsigned int line_number)
