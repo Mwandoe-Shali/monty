@@ -78,7 +78,7 @@ void rotl(stack_t **, unsigned int);
 void rotr(stack_t **, unsigned int);
 
 /*Error handling*/
-void print_err(int error_code, ...); 
+void print_err(int error_code, ...);
 void more_errs(int error_code, ...);
 void string_errs(int error_code, ...);
 
