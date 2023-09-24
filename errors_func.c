@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * print_err - Prints appropiate error messages determined by their error code.
+ * print_err - Prints appropriate error messages determined by their error code.
  * @error_code: The error codes are the following:
  * (1) => The user does not give any file or more than one file to the program.
  * (2) => The file provided is not a file that can be opened or read.
@@ -48,9 +48,9 @@ void print_err(int error_code, ...)
 /**
  * more_errs - handles errors.
  * @error_code: The error codes are the following:
- * (6) => When the stack it empty for pint.
- * (7) => When the stack it empty for pop.
- * (8) => When stack is too short for operation.
+ * (6) => When the stack is empty for pint.
+ * (7) => When the stack is empty for pop.
+ * (8) => When the stack is too short for operation.
  * (9) => Division by zero.
  *
  * Return: Void
@@ -115,4 +115,3 @@ void string_errs(int error_code, ...)
 	free_nodes();
 	exit(EXIT_FAILURE);
 }
-
