@@ -8,7 +8,7 @@
  * (3) => The file provided contains an invalid instruction.
  * (4) => When the program is unable to malloc more memory.
  * (5) => When the parameter passed to the instruction "push" is not an int.
- * 
+ *
  * Return: Void
  */
 void print_err(int error_code, ...)
@@ -52,7 +52,7 @@ void print_err(int error_code, ...)
  * (7) => When the stack it empty for pop.
  * (8) => When stack is too short for operation.
  * (9) => Division by zero.
- * 
+ *
  * Return: Void
  */
 void more_errs(int error_code, ...)
