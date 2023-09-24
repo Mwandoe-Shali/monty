@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * print_err - Prints appropriate error messages 
+ * print_err - Prints appropriate error messages
  *		determined by their error code.
  * @error_code: The error codes are the following:
  * (1) => The user does not give any file or more than one file to the program.
