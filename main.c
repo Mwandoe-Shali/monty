@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * main - entry point
- * @argc: arguments count
+ * main - Entry point of monty interpreter
+ * @argc: arguments counter
  * @argv: list of arguments
  *
  * Return: always 0
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
  * create_node - Creates a node.
  * @n: Number to go inside the node.
  *
- * Return: Upon sucess a pointer to the node. Otherwise NULL.
+ * Return: Upon success a pointer to the node. Otherwise NULL.
  */
 stack_t *create_node(int n)
 {
@@ -87,4 +87,3 @@ void add_to_queue(stack_t **new_node, __attribute__((unused))unsigned int ln)
 	(*new_node)->prev = tmp;
 
 }
-
