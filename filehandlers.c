@@ -6,7 +6,7 @@ extern int getline(char **lineptr, size_t *n, FILE *stream);
 
 /**
  * open_file - opens a file
- * @file_name: the file namepath
+ * @file_name: the file name path
  *
  * Return: void
  */
@@ -50,7 +50,7 @@ void read_file(FILE *fd)
  * @buffer: line from the file
  * @line_number: line number
  * @format:  storage format. If 0 Nodes will be entered as a stack.
- * if 1 nodes will be entered as a queue.
+ * if 1 node will be entered as a queue.
  *
  * Return: Returns 0 if the opcode is stack. 1 if queue.
  */
@@ -83,7 +83,7 @@ int parse_line(char *buffer, int line_number, int format)
  * @value: argument of opcode
  * @format:  storage format. If 0 Nodes will be entered as a stack.
  * @ln: line number
- * if 1 nodes will be entered as a queue.
+ * if 1 node will be entered as a queue.
  *
  * Return: void
  */
@@ -131,10 +131,10 @@ void find_func(char *opcode, char *value, int ln, int format)
  * call_fun - Calls the required function.
  * @func: Pointer to the function that is about to be called.
  * @op: string representing the opcode.
- * @val: string representing a numeric value.
- * @ln: line numeber for the instruction.
+ * @val: a string representing a numeric value.
+ * @ln: line number for the instruction.
  * @format: Format specifier. If 0 Nodes will be entered as a stack.
- * if 1 nodes will be entered as a queue.
+ * if 1 node will be entered as a queue.
  *
  * Return: Void
  */
